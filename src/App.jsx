@@ -12,7 +12,6 @@ import CategoryTwo from './components/pages/CategoryTwo'
 import CategoryThree from './components/pages/CategoryThree'
 import CategoryFour from './components/pages/CategoryFour'
 import CategoryFive from './components/pages/CategoryFive'
-
 function App() {
 
 
@@ -32,6 +31,8 @@ function App() {
           <Route path='categoryfive' element={<CategoryFive/>}/>
         </Route>
       </Routes>
+
+
     </>
   )
 }

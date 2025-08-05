@@ -44,17 +44,62 @@ function AutoPlay() {
                 </div>
 
 
-                <div className='w-[370px] relative'>
-                    <Image className='w-[370px]' imgSrc={picture2} />
+
+<div className="relative w-[370px]">
+  <Image className="" imgSrc={picture2} />
+
+  <Button
+    className="text-[14px] bg-black top-8 py-3 px-10 text-[#FFFFFF] hover:bg-amber-300 hover:text-black hover:duration-750 absolute"
+    btnText="Now"
+  />
+
+  <div className="absolute bottom-[100px] right-25 flex flex-col items-end gap-2">
+    <div className="flex items-center gap-2">
+      <h3>Add to Wish List</h3>
+      <FaHeart />
+    </div>
+
+    <div className="flex items-center gap-2">
+      <h4>Compare</h4>
+      <IoIosGitCompare />
+    </div>
+
+    <div className="flex items-center gap-2">
+      <h5>Add to Cart</h5>
+      <BsCartCheckFill />
+    </div>
+  </div>
+
+  <div className="flex justify-between mt-4">
+    <h3 className="font-bold text-[20px] text-black">Basic Crew Neck Tee</h3>
+    <h5 className="text-[#767676] text-[20px]">$44.00</h5>
+  </div>
+</div>
+
+
+                {/* <div className=' relative w-[370px]'>
+                    <Image className='' imgSrc={picture2} />
 
                     <Button className={'text-[14px] bg-black  top-8 py-3 px-10 text-[#FFFFFF] hover:bg-amber-300 hover:text-black hover:duration-750 absolute '} btnText={'Now'} />
 
-                    <div className="absolute  bottom-[100px]  right-15">
-                        <h3 className="flex items-center gap-2  right-0">Add to Wish List <FaHeart />
-                        </h3>
-                        <h4 className="flex items-center gap-2 right- ">Compare <IoIosGitCompare /></h4>
-                        <h5 className="flex items-center gap-2 right-0 ">Add to Cart<BsCartCheckFill />
-                        </h5>
+                    <div className="absolute w-full  bottom-[100px]  left-0 text-right">
+
+                        <div className="flex items-end w-full gap-2  ">
+                            <h3>Add to Wish List</h3>
+                            <FaHeart />
+                        </div>
+
+                        <div className="flex items-end gap-2">
+                            <h4>Compare</h4>
+                            <IoIosGitCompare />
+                        </div>
+
+
+
+                        <div className="flex items-end gap-2 ">
+                            <h5>Add to Car</h5>
+                            <BsCartCheckFill />
+                        </div>
                     </div>
 
 
@@ -64,7 +109,7 @@ function AutoPlay() {
                         <h3 className="font-bold text-[20px] text-black">Basic Crew Neck Tee</h3>
                         <h5 className="text-[#767676] text-[20px]">$44.00</h5>
                     </div>
-                </div>
+                </div> */}
 
                 <div className='w-[370px] relative'>
                     <Image className='w-[370px]' imgSrc={picture3} />

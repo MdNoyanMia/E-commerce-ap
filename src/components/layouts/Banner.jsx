@@ -8,35 +8,53 @@ import Image from '../Image'
 import pic from '/src/assets/pic.png'
 import pictwo from '/src/assets/pictwo.png'
 import picnai from '/src/assets/picnai.png'
-
 import picture5 from '/src/assets/picture5.png';
 import picture6 from '/src/assets/picture6.png';
 import picture7 from '/src/assets/picture7.png';
 import picture8 from '/src/assets/picture8.png';
+import picture10 from '/src/assets/picture10.png';
+import picture11 from '/src/assets/picture11.png';
+import picture12 from '/src/assets/picture12.png';
+import picture13 from '/src/assets/picture13.png';
 
+import AutoPlay from '../AutoPlay';
+import picture9 from '/src/assets/picture9.png'
 import { FaHeart } from "react-icons/fa";
 import { IoIosGitCompare } from "react-icons/io";
 import { BsCartCheckFill } from "react-icons/bs";
-import AutoPlay from '../AutoPlay';
+import Banners from '../pages/Banners';
+
+
 
 const Banner = () => {
     return (
         <>
-            <Container>
-                <div className='bg-[url(/src/assets/slider01.png)] py-[250px] bg-center bg-cover bg-no-repeat relative'>
 
-                    <div className='w-[400px] h-[300px] left-[30px] -translate-y-1/2 absolute'>
+            {/* banner part start  */}
+            <div>
+                <Container>
+                    <div className='bg-[url(/src/assets/slider01.png)] py-[250px] bg-center bg-cover bg-no-repeat relative'>
 
-                        <h3 className='font-bold text-[49px] text-[#262626]'>Final Offer</h3>
-                        <h4 className=' py-12 font-normal text-[16px] text-[#6D6D6D]'>Up to<span className='font-bold text-[40px] text-[#262626] px-2 py-[20px]'>50%</span>sale for all furniture items!</h4>
+                        <div className='w-[400px] h-[300px] left-[30px] -translate-y-1/2 absolute'>
 
-                        <Button className={'text-[14px] bg-black px-10 text-[#FFFFFF] hover:bg-amber-300 hover:text-black hover:duration-750  '} btnText={'Shop Now'} />
+                            <h3 className='font-bold text-[49px] text-[#262626]'>Final Offer</h3>
+                            <h4 className=' py-12 font-normal text-[16px] text-[#6D6D6D]'>Up to<span className='font-bold text-[40px] text-[#262626] px-2 py-[20px]'>50%</span>sale for all furniture items!</h4>
+
+                            <Button className={'text-[14px] bg-black px-10 text-[#FFFFFF] hover:bg-amber-300 hover:text-black hover:duration-750  '} btnText={'Shop Now'} />
+                        </div>
                     </div>
 
-                </div>
-                {/* banner end */}
+                </Container>
 
-                <div>
+            </div>
+
+            {/* banner end */}
+
+            {/* banner 2nd start */}
+
+            <div>
+
+                <Container>
 
                     <Flex className='justify-between'>
                         <div>
@@ -53,14 +71,16 @@ const Banner = () => {
                         </div>
 
                     </Flex>
+                </Container>
 
-                </div>
+            </div>
 
-            </Container>
+            {/* banner 2nd end */}
 
-            {/*  */}
 
-            <div className='py-6 '>
+
+
+            < div className='py-6 ' >
                 <Container>
                     <Flex className='justify-between gap-x-2'>
 
@@ -94,10 +114,11 @@ const Banner = () => {
 
                                 {/*  */}
                             </div>
+
                             <div className='h-[300px] w-[650px] py-11 relative'>
                                 <Image imgSrc={picnai} />
 
-                                {/*  */}
+
 
                                 <div className=' absolute w-[300px] h-[200px] bottom-0 left-14'>
 
@@ -107,17 +128,21 @@ const Banner = () => {
 
                                     <Button className={'text-[14px] bg-black px-10 text-[#FFFFFF] hover:bg-amber-300 hover:text-black hover:duration-750  '} btnText={'Shop Now'} />
                                 </div>
-                                {/*  */}
+
                             </div>
 
                         </div>
                     </Flex>
 
                 </Container>
+
             </div>
 
+
+
+
             {/* AutoPlay */}
-            <div>
+            < div >
                 <Container>
                     <AutoPlay />
                 </Container>
@@ -127,11 +152,12 @@ const Banner = () => {
 
 
 
-            {/*  */}
 
             <div className=' py-30 '>
 
+
                 <Container>
+                    <h3 className="font-bold text-[39px] text-black">Our Bestsellers</h3>
 
                     <Flex className='gap-x-6'>
 
@@ -161,6 +187,7 @@ const Banner = () => {
                         </div>
 
                         <div className=' relative w-[300px]'>
+
                             <Image className='w-[370px]' imgSrc={picture7} />
 
                             <Button className={'text-[14px] bg-black  top-8 py-3 px-10 text-[#FFFFFF] hover:bg-amber-300 hover:text-black hover:duration-750 absolute '} btnText={'Now'} />
@@ -188,6 +215,91 @@ const Banner = () => {
 
                 </Container>
             </div>
+
+
+
+            {/*  */}
+
+
+            <div>
+                <Container>
+                    <Flex>
+
+                        <div>
+                            <Banners />
+                        </div>
+
+                    </Flex>
+                </Container>
+
+            </div>
+
+
+
+
+
+            <div className=' py-5 '>
+
+                <Container>
+                    <h3 className="font-bold text-[39px] text-black">Special Offers</h3>
+                    <Flex className='gap-x-6'>
+
+                        <div className=' relative w-[300px]'>
+                            <Image className='' imgSrc={picture10} />
+
+                            <Button className={'text-[14px] bg-black  top-8 py-3 px-10 text-[#FFFFFF] hover:bg-amber-300 hover:text-black hover:duration-750 absolute '} btnText={'Now'} />
+                            <div className="flex gap-[50px] py-3">
+                                <h3 className="font-bold text-[16px] w-[200px] text-black">Basic Crew Neck Tee</h3>
+                                <h5 className="text-[#767676] text-[16px]">$44.00</h5>
+                            </div>
+                            <h3>Back</h3>
+
+                        </div>
+
+
+                        <div className=' relative w-[300px]'>
+                            <Image className='w-[370px]' imgSrc={picture11} />
+
+                            <Button className={'text-[14px] bg-black  top-8 py-3 px-10 text-[#FFFFFF] hover:bg-amber-300 hover:text-black hover:duration-750 absolute '} btnText={'Now'} />
+
+                            <div className="flex gap-[50px] py-3">
+                                <h3 className="font-bold text-[16px] w-[200px]  text-black">Basic Crew Neck Tee</h3>
+                                <h5 className="text-[#767676] text-[16px]">$44.00</h5>
+                            </div>
+                            <h3>Back</h3>
+                        </div>
+
+                        <div className=' relative w-[300px]'>
+
+                            <Image className='w-[370px]' imgSrc={picture12} />
+
+                            <Button className={'text-[14px] bg-black  top-8 py-3 px-10 text-[#FFFFFF] hover:bg-amber-300 hover:text-black hover:duration-750 absolute '} btnText={'Now'} />
+                            <div className="flex gap-[50px] py-3">
+                                <h3 className="font-bold text-[16px] w-[200px]  text-black">Basic Crew Neck Tee</h3>
+                                <h5 className="text-[#767676] text-[16px]">$44.00</h5>
+                            </div>
+                            <h3>Back</h3>
+                        </div>
+
+                        <div className=' relative w-[300px] '>
+                            <Image className='w-[370px] ' imgSrc={picture13} />
+                            {/*  */}
+                            <Button className={'text-[14px] bg-black  top-8 py-3 px-10 text-[#FFFFFF] hover:bg-amber-300 hover:text-black hover:duration-750 absolute '} btnText={'Now'} />
+                            {/*  */}
+                            <div className="flex gap-[50px] py-3">
+                                <h3 className="font-bold text-[16px] w-[300px]  text-black">Basic Crew Neck Tee</h3>
+                                <h5 className="text-[#767676] text-[16px]">$44.00</h5>
+
+                            </div>
+                            <h3>Back</h3>
+
+                        </div>
+                    </Flex>
+
+                </Container>
+            </div>
+
+
 
         </>
     )
