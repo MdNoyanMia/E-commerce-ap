@@ -70,7 +70,7 @@ function AutoPlay() {
     </div>
   </div>
 
-  <div className="flex justify-between mt-4">
+  <div className="flex gap-x-20 mt-3">
     <h3 className="font-bold text-[20px] text-black">Basic Crew Neck Tee</h3>
     <h5 className="text-[#767676] text-[20px]">$44.00</h5>
   </div>
