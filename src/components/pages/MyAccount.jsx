@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Container from '../Container'
 import Flex from '../Flex'
 import { IoIosArrowForward } from "react-icons/io";
+import Cart from './Cart'
 
 
 const MyAccount = () => {
@@ -62,8 +63,7 @@ const MyAccount = () => {
 
                 </Container>
             </div>
-
-
+            
         </>
     )
 }

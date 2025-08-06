@@ -107,10 +107,6 @@ const Login = () => {
 
 
 
-            <div>
-                <Signup />
-            </div>
-
         </>
     )
 }

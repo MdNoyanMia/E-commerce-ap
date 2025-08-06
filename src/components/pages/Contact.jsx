@@ -90,10 +90,6 @@ const Contact = () => {
         </Container>
       </div>
 
-
-<div>
-  <Login/>
-</div>
     </>
   )
 }

@@ -3,13 +3,10 @@ import Container from '../Container'
 import Flex from '../Flex'
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from 'react-router-dom';
-
 import CategoryOne from './CategoryOne';
 import CategoryTwo from './CategoryTwo';
 import CategoryThree from './CategoryThree';
 import CategoryFour from './CategoryFour';
-import ProductInsite from './ProductInsite';
-
 
 
 
@@ -66,9 +63,7 @@ const Shop = () => {
         </Container>
       </div>
 
-      <div>
-        <ProductInsite/>
-      </div>
+      
 
 
 

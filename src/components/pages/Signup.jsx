@@ -78,7 +78,7 @@ const Signup = () => {
                                 </div>
                                 <div className=' flex flex-col'>
                                     <label className='font-bold text-black text-[16px]'>Telephone:</label>
-                                    <input className='font-normal text-[16px] py-3 px-6 border-1  border-[#e7e0e0] outline-none' type="Password" placeholder='Your phone number' />
+                                    <input className='font-normal text-[16px] py-3 px-6 border-1  border-[#e7e0e0] outline-none' type="text" placeholder='Your phone number' />
                                 </div>
                             </div>
 
@@ -134,11 +134,11 @@ const Signup = () => {
 
                                 <div className=' flex flex-col'>
                                     <label className='font-bold text-black text-[16px]'>City</label>
-                                    <input className='font-normal text-[16px] py-3 px-6 border-1  border-[#e7e0e0] outline-none' type="Password" placeholder='Your City' />
+                                    <input className='font-normal text-[16px] py-3 px-6 border-1  border-[#e7e0e0] outline-none' type="text" placeholder='Your City' />
                                 </div>
                                 <div className=' flex flex-col'>
                                     <label className='font-bold text-black text-[16px]'>Post Code</label>
-                                    <input className='font-normal text-[16px] py-3 px-6 border-1  border-[#e7e0e0] outline-none' type="Password" placeholder='Your Post Code' />
+                                    <input className='font-normal text-[16px] py-3 px-6 border-1  border-[#e7e0e0] outline-none' type="text" placeholder='Your Post Code' />
                                 </div>
                             </div>
 
@@ -205,7 +205,7 @@ const Signup = () => {
 
                         <div className=' flex flex-col'>
                             <label className='font-bold text-black text-[16px]'>Password</label>
-                            <input className='font-normal text-[16px] py-3 px-6 border-1  border-[#e7e0e0] outline-none' type="Password" placeholder='Your Password' />
+                            <input className='font-normal text-[16px] py-3 px-6 border-1  border-[#e7e0e0] outline-none' type="password" placeholder='' />
                         </div>
                         <div className=' flex flex-col'>
                             <label className='font-bold text-black text-[16px]'>RepeatPassword</label>
@@ -248,7 +248,7 @@ const Signup = () => {
             </div>
 
 
-<MyAccount/>            
+
 
         </>
     )
